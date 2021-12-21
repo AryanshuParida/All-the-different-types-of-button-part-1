@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    overflow: hidden;
+}
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(90deg,#0162c8,#55e7fc);
+    /* place-items: center; */
+}
+.btn{
+    margin: 15px;
+    color: black;
+    background-image: linear-gradient(90deg,#0162c8,#55e7fc);
+    width: 120px;
+    height: 42px;
+    border-radius: 15px;
+    border: solid rgb(0, 0, 0) 2px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn:hover{
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(180deg,#0162c8,#55e7fc);
+    opacity: inherit;
+}
+h1{
+    color: white;
+    font-size: 35px;
+}
